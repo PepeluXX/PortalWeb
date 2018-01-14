@@ -1,0 +1,5 @@
+name: busca alumnos
+description: Un formulario resumen para buscar los alumnos.
+core: 8.x
+package: Custom
+type: module

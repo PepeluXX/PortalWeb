@@ -1,0 +1,7 @@
+busca_alumnos.form:
+    path: '/enviar_avisos'
+    defaults:
+       _title: 'Application form'
+       _form: '\Drupal\busca_alumnos\Form\BuscaAlumnosForm'
+    requirements:
+        _permission: 'access content'
