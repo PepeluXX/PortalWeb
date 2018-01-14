@@ -1,0 +1,8 @@
+name: He olvidado mi password
+description: Modulo Bloque para recuperar la contraseña.
+core: 8.x
+package: Custom
+dependencies:
+- node
+- block
+type: module
