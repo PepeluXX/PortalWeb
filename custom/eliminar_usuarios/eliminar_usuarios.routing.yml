@@ -1,0 +1,7 @@
+eliminar_usuarios.form:
+    path: '/eliminar_usuarios'
+    defaults:
+       _title: 'Application form'
+       _form: '\Drupal\eliminar_usuarios\Form\EliminarUsuariosForm'
+    requirements:
+        _permission: 'access content'
