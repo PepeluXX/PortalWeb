@@ -1,0 +1,7 @@
+crear_mensajes.form:
+    path: '/crear_mensajes'
+    defaults:
+       _title: 'Application form'
+       _form: '\Drupal\crear_mensajes\Form\CrearMensajesForm'
+    requirements:
+        _permission: 'access content'

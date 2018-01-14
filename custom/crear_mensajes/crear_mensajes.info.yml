@@ -1,0 +1,5 @@
+name: crear mensajes
+description: Un formulario para crear mensajes sobre un alumno.
+core: 8.x
+package: Custom
+type: module
