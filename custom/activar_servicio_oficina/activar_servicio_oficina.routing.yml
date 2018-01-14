@@ -1,0 +1,7 @@
+activar_servicio_oficina.form:
+    path: '/activar_servicio_oficina'
+    defaults:
+       _title: 'Application form'
+       _form: '\Drupal\activar_servicio_oficina\Form\ActivarServicioOficinaForm'
+    requirements:
+        _permission: 'access content'
