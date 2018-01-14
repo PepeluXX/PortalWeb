@@ -21,7 +21,7 @@ class BuscaAlumnosForm extends FormBase{
    
 //Clave del servidor FCM asociada a nuestro proyecto Android
     
- private $SERVER_KEY = 'AAAAWKcztZI:APA91bEXGcsqiCrigigX_dSLdhq8NnST7AzHvcnKo4NQwPTg5S-5EWV4M1j8-E5PcwRk-CCxrp5sIK9_zlNEd4p2Ofkl_jo8dKPNd3f6aBVQydkhkNdpMma96th617C3u2ZkbOsvVJRv';    
+ private $SERVER_KEY = '*';    
     
     
    /**
@@ -1011,7 +1011,7 @@ class BuscaAlumnosForm extends FormBase{
                  $message = $_POST['message'];
                  $title = $_POST['title'];
                  $path_to_fcm = 'https://fcm.googleapis.com/fcm/send';
-                 $server_key='AAAAWKcztZI:APA91bEXGcsqiCrigigX_dSLdhq8NnST7AzHvcnKo4NQwPTg5S-5EWV4M1j8-E5PcwRk-CCxrp5sIK9_zlNEd4p2Ofkl_jo8dKPNd3f6aBVQydkhkNdpMma96th617C3u2ZkbOsvVJRv';
+                 $server_key='*';
                  
                  $headers = array(
                         'Authorization:key=' .$server_key,
@@ -1120,7 +1120,7 @@ class BuscaAlumnosForm extends FormBase{
                  $message = $_POST['message'];
                  $title = $_POST['title'];
                  $path_to_fcm = 'https://fcm.googleapis.com/fcm/send';
-                 $server_key='AAAAWKcztZI:APA91bEXGcsqiCrigigX_dSLdhq8NnST7AzHvcnKo4NQwPTg5S-5EWV4M1j8-E5PcwRk-CCxrp5sIK9_zlNEd4p2Ofkl_jo8dKPNd3f6aBVQydkhkNdpMma96th617C3u2ZkbOsvVJRv';   ;
+                 $server_key='*';   ;
                  
                  $headers = array(
                         'Authorization:key=' .$server_key,
